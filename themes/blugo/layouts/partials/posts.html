@@ -1,0 +1,8 @@
+<h1 class="pixel">Posts</h1>
+<ul>
+{{ range site.RegularPages }}
+<li>
+  <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+</li>
+{{ end }}
+</ul>

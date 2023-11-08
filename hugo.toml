@@ -1,0 +1,6 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Smoking Footguns'
+theme = 'blugo'
+CanonifyURLs = true
+RelativeURLs = true
