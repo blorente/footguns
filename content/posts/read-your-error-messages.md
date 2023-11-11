@@ -1,8 +1,10 @@
 +++
 title = 'Error Messages: Help Me Help You'
 date = 2023-11-11T08:27:25Z
-draft = true
+draft = false
 +++
+
+> If you haven't yet, please read the [About](/about) section. This blog might not be for you.
 
 Let's not beat around the bush. Error messages suck.
 
