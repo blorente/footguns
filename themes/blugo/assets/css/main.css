@@ -73,7 +73,7 @@ pre code { white-space: pre-wrap; }
 .content-header {
     grid-area: content-header;
     align-items: center;
-    width: clamp(200px, 50%, 800px)
+    width: clamp(300px, 100%, 700px)
 }
 
 .header-layout {
