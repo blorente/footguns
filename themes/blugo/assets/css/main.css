@@ -41,6 +41,12 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+code {
+  max-width: 100%;
+}
+/* Add wrapping to the text in code blocks */
+pre code { white-space: pre-wrap; }
+
 /* 
  * Container for the site the general grid should go here 
  */
@@ -66,11 +72,13 @@ p {
 /* Header START */
 .content-header {
     grid-area: content-header;
+    align-items: center;
+    width: clamp(200px, 50%, 800px)
 }
 
 .header-layout {
     display: grid;
-    grid-template-rows: 4rem 2rem 2rem;
+    grid-template-rows: 4rem auto 2rem;
 }
 
 .site-title {
@@ -80,13 +88,16 @@ p {
 .site-subtitle {
     font-size: medium;
     margin: 0;
+    margin-bottom: 1em;
 }
 
 .menu {
     display: inline-grid;
-    margin-top: 0;
-    margin-bottom: 0;
-    grid-template-columns: repeat(3, 5rem);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(2, 5rem);
 }
 
 .menu-item {
