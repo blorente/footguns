@@ -3,6 +3,7 @@
     --main-fg-color: rgb(215, 215, 215);
     --accent-fg-color: rgb(120, 130, 138);
     --link-color: rgb(112, 179, 255);
+    --column-max-width: 50rem;
 }
 
 @font-face {
@@ -73,7 +74,7 @@ pre code { white-space: pre-wrap; }
 .content-header {
     grid-area: content-header;
     align-items: center;
-    width: clamp(300px, 100%, 700px)
+    max-width: var(--column-max-width);
 }
 
 .header-layout {
@@ -112,7 +113,7 @@ pre code { white-space: pre-wrap; }
 
 .content-main {
     grid-area: content-main;
-    width: clamp(30rem, 50rem, 50rem);
+    max-width: var(--column-max-width);
     min-height: 20rem;
 }
 
