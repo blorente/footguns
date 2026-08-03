@@ -1,10 +1,8 @@
-+++
-title = 'Error Messages: Help Me Help You'
-date = 2023-11-11T08:27:25Z
-draft = false
-+++
-
-> If you haven't yet, please read the [About](/about) section. This blog might not be for you.
+---
+title: 'Error Messages: Help Me Help You'
+date: 2023-11-11T08:27:25Z
+draft: false
+---
 
 Let's not beat around the bush. Error messages suck.
 
@@ -141,3 +139,4 @@ But that doesn't help you. What will help you is giving me all the context at on
 Don't worry. Even if you're very nice and helpful, I promise to feel adequately bad for blocking your workflow.
 
 [rust-errors]: https://rustc-dev-guide.rust-lang.org/diagnostics.html
+

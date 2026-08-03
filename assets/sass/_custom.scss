@@ -1,0 +1,11 @@
+.site-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+}
+
+html.dark .site-banner {
+  filter: invert(1) hue-rotate(180deg);
+}
