@@ -159,6 +159,8 @@ And that doesn't seem fair.
 Why do _I_ get to do what I like and make a living, and other people don't?
 Why did my school bus driver have to drive the bus instead of going full time with his metal band, like he always wanted?[^3]
 
+Why do _they_ have to choose, while I didn't have to?
+
 Yes, I know, this is not practical in the real world we live in. Somebody has to drive the bus.
 
 But that's not how I'd like life to work, which is why I'm perfectly fine with Atapuerca: It's a place where a few passionate people get to do work they love, and get to live the life I think we all should be able to live.
