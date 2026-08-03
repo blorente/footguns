@@ -1,0 +1,23 @@
+{
+  "name": "smoking-footguns.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently npm:watch:*",
+    "watch:hugo": "npm exec hugo server -D",
+    "build": "npm exec hugo --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "hugo-bin": "^0.149.2",
+    "tailwindcss": "^4.1.17"
+  },
+  "hugo-bin": {
+    "buildTags": "extended",
+    "version": "0.161.1"
+  }
+}
