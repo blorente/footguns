@@ -8,4 +8,7 @@
 
 html.dark .site-banner {
   filter: invert(1) hue-rotate(180deg);
+  // Let the page background show through the image's (inverted) black
+  // background so it matches the site's dark background exactly.
+  mix-blend-mode: screen;
 }
