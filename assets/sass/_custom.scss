@@ -6,6 +6,31 @@
   border-radius: 8px;
 }
 
+// Ornamental book-style divider: a central fleuron with swashes, drawn as an
+// SVG mask so the same shape can be tinted per theme via background-color.
+$divider-svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 24'%3E%3Cpath d='M120 5l6 7-6 7-6-7z'/%3E%3Cpath d='M104 9l3.5 3-3.5 3-3.5-3z'/%3E%3Cpath d='M136 9l3.5 3-3.5 3-3.5-3z'/%3E%3Cpath d='M96 12C76 5 52 19 20 12' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round'/%3E%3Cpath d='M144 12c20-7 44 7 76 0' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round'/%3E%3Ccircle cx='16' cy='12' r='2'/%3E%3Ccircle cx='224' cy='12' r='2'/%3E%3C/svg%3E");
+
+hr {
+  border: 0;
+  height: 24px;
+  width: 280px;
+  max-width: 70%;
+  margin: 2.5rem auto;
+  background-color: $gray;
+  -webkit-mask: $divider-svg no-repeat center / contain;
+  mask: $divider-svg no-repeat center / contain;
+}
+
+html.dark hr {
+  background-color: $dark-gray;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) hr {
+    background-color: $dark-gray;
+  }
+}
+
 html.dark .site-banner {
   filter: invert(1) hue-rotate(180deg);
   // Let the page background show through the image's (inverted) black
